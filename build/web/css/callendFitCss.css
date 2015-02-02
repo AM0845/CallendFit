@@ -1,0 +1,57 @@
+body { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container a {
+  color: lightgrey;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.container li {
+  display: inline;
+}
+
+header {
+    text-align: center;
+    background-image:url(../img/bg_h.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header h1 {
+  color: lightgrey;
+  font-size: 48px;  
+  font-family: 'Shift', Times New Roman;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 20px;
+  color: #fff;
+}
+
+section {
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+
+
+footer {
+    color: snow;
+    left: 20px;
+    position: relative;
+    top: 600px;
+}
+
